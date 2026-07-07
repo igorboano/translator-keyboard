@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Dichiarazione IME: registra la tastiera nel sistema Android -->
+<input-method xmlns:android="http://schemas.android.com/apk/res/android"
+    android:settingsActivity="com.translatekeyboard.settings.SettingsActivity"
+    android:isDefault="false">
+    <subtype
+        android:label="@string/subtype_generic"
+        android:imeSubtypeLocale="en_US"
+        android:imeSubtypeMode="keyboard" />
+</input-method>
